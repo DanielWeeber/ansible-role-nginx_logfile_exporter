@@ -1,6 +1,6 @@
 [![CI](https://github.com/DanielWeeber/ansible-role-nginx_logfile_exporter/actions/workflows/release.yml/badge.svg?branch=master)](https://github.com/DanielWeeber/ansible-role-nginx_logfile_exporter/actions/workflows/release.yml)
 
-# Ansible Role: Apache exporter
+# Ansible Role: Nginx Logfile exporter
 
 This role installs Prometheus' [Nginx logfile exporter](https://github.com/martin-helmich/prometheus-nginxlog-exporter) on Nginx hosts.
 
