@@ -1,0 +1,10 @@
+[Unit]
+Description=NginxLogfileExporter
+
+[Service]
+TimeoutStartSec=0
+User=nginx_logfile_exporter
+ExecStart={{ nginx_logfile_exporter_bin_path }} {{ nginx_logfile_exporter_options }}
+
+[Install]
+WantedBy=multi-user.target

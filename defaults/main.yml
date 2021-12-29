@@ -1,0 +1,11 @@
+---
+# See available releases: https://github.com/martin-helmich/prometheus-nginxlog-exporter/releases
+nginx_logfile_exporter_version: '1.9.2'
+nginx_logfile_exporter_arch: 'amd64'
+nginx_logfile_exporter_download_url: https://github.com/martin-helmich/prometheus-nginxlog-exporter/releases/download/v{{ nginx_logfile_exporter_version }}/prometheus-nginxlog-exporter_{{ nginx_logfile_exporter_version }}_linux_{{ nginx_logfile_exporter_arch }}.tar.gz
+
+nginx_logfile_exporter_bin_path: /usr/local/bin/nginx_logfile_exporter
+nginx_logfile_exporter_options: '-config-file /etc/nginx_logfile_exporter.hcl'
+
+nginx_logfile_exporter_state: restarted
+nginx_logfile_exporter_enabled: true
